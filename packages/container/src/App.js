@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
-// import MarketingApp from "./components/MarketingApp";
+import MarketingApp from "./components/MarketingApp";
 import Header from "./components/Header";
 import {
   StylesProvider,
@@ -17,7 +17,7 @@ export default () => {
       <StylesProvider generateClassName={generateClassName}>
         <div>
           <Header />
-          {/* <MarketingApp /> */}
+          <MarketingApp />
         </div>
       </StylesProvider>
     </BrowserRouter>
